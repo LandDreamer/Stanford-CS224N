@@ -80,7 +80,7 @@ $$
 \begin{aligned}
 \frac{\partial J}{\partial u_w} 
 &= -v_c +  \frac{exp(u_w^T v_c)v_c}{\sum_w{exp(u_w^T v_c)}} \\
-&= -v_c +  \frac{exp(u_w^T v_cv_c}{\sum_w{exp(u_w^T v_c)}} \\
+&= -v_c +  \frac{exp(u_w^T v_cv_c)}{\sum_w{exp(u_w^T v_c)}} \\
 &= -v_c + P(O=w|C=c)v_c \\
 &= -v_c + \hat y_wv_c \\
 \end{aligned}
